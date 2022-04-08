@@ -49,7 +49,7 @@ struct DogsView: View {
             }
         }
         
-        }
+    }
         
     func showText(text: String) {
         print(text)

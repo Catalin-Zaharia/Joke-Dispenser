@@ -48,8 +48,6 @@ class NotificationManager {
 struct RootView: View {
     
     var body: some View {
-        
-        
         NavigationView{
             VStack{
                 

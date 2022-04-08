@@ -12,7 +12,6 @@ struct Twopart: Codable{
     var delivery : String
 }
 
-
 struct Single: Codable{
     var joke: String
 }
