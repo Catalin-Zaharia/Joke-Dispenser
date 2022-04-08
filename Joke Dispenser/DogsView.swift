@@ -10,7 +10,6 @@ import SwiftUI
 import UIKit
 import AVKit
 
-
 struct Content: Codable{
     var url: String
 }
