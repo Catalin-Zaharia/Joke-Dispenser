@@ -30,7 +30,7 @@ struct JokeView: View {
     }
     
     func loadData() async {
-        let urlstring3 = "https://v2.jokeapi.dev/joke/Any?type="+jokeType
+        let urlstring3 = "https://v2.jokeapi.dev/joke/Any?safe-mode&type="+jokeType
         print(urlstring3)
         
         guard let url = URL(string: urlstring3) else {
